@@ -1,6 +1,22 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: ❓Other_1|806KB/s
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: "\U0001F1ED\U0001F1F0HK_1|629KB/s"
+      password: 6d00fde742644d11
+      port: 99
+      server: khk9527.vision.jp.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: trojan
     - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-      name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s"
       obfs: salamander
       obfs-password: CF7WJGiw6r1c8imX
       password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -10,16 +26,9 @@ proxies:
       sni: hy2-jp.onetaplink.app
       type: hysteria2
       udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|7.0MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-sg-001.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-sg-001.fastervpn.world
-      type: hysteria2
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_2|550KB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|3.5MB/s"
       obfs: salamander
       obfs-password: OrT7yQQIMqcvKdet
       password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -29,168 +38,29 @@ proxies:
       sni: hy2-sg.onetaplink.app
       type: hysteria2
       up: ""
-    - name: "\U0001F1EF\U0001F1F5JP_2|3.4MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-jp-006.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-jp-006.fastervpn.world
-      tfo: false
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1EE\U0001F1F9IT_1|1.1MB/s"
-      password: strong-secret-pass-777
-      port: 50043
-      server: 82.118.16.61
-      skip-cert-verify: true
-      type: tuic
-      udp-relay-mode: native
-      uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
-      version: "5"
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
-      password: strong-secret-pass-777
-      port: 50043
-      server: 82.117.255.37
-      skip-cert-verify: true
-      type: tuic
-      udp-relay-mode: native
-      uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
-      version: "5"
     - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-us-024.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-024.fastervpn.world
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-us-006.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-006.fastervpn.world
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s"
-      obfs: salamander
-      obfs-password: OrT7yQQIMqcvKdet
-      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-      port: 443
-      server: usa-hy2.onetaplink.app
-      skip-cert-verify: false
-      sni: hy2-usa.onetaplink.app
-      tfo: false
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E6\U0001F1F9AT_1|771KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
-        short-id: e3ec60fe5f53a97c
-      server: austria.coverprotect.info
-      servername: austria.coverprotect.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4ce98305-2c38-4e1f-aa7b-ef6f77bbfc7c
-      xudp: true
-    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1EF\U0001F1F5JP_3|2.7MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_2|3.5MB/s"
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
       server: vpn-jp-016.fastervpn.world
       skip-cert-verify: true
       sni: vpn-jp-016.fastervpn.world
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-us-018.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-018.fastervpn.world
-      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E6\U0001F1F9AT_2|1.4MB/s"
-      network: tcp
-      port: "443"
+      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+      port: 19001
       reality-opts:
-        public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
-        short-id: e3ec60fe5f53a97c
-      server: austria.coverprotect.info
-      servername: austria.coverprotect.info
+        public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+      server: krp01.jumperservice.com
+      servername: addons.mozilla.org
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 304098c0-8e7f-41fd-8df8-487504e9e55c
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-us-011.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-011.fastervpn.world
-      type: hysteria2
-    - client-fingerprint: qq
-      encryption: none
-      grpc-opts:
-        grpc-service-name: UpdateService
-      name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-      network: grpc
-      port: "2083"
-      reality-opts:
-        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-        short-id: 6da16b1335651b38
-      server: nl.appav.online
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3de26259-e6b4-4b22-af75-2f473d548e94
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
-      network: ws
-      port: 443
-      server: 135.84.74.43
-      servername: sni.111000.v6.navy
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.111000.v6.navy
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_2|1.4MB/s"
-      network: ws
-      port: 443
-      server: 135.84.74.155
-      servername: sni.111000.v6.navy
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.111000.v6.navy
-        path: "/?Telegram\U0001F1E8\U0001F1F3 @WangCai2="
+      uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
     - cipher: none
-      name: "\U0001F1F9\U0001F1FCTW_1|732KB/s"
+      name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
       password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
       plugin: v2ray-plugin
       plugin-opts:
@@ -203,19 +73,159 @@ proxies:
       server: 203.69.248.40
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_6|591KB/s"
-      password: somebody
-      plugin: obfs
-      plugin-opts:
-        host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-        mode: http
-      port: 30011
-      server: 45.8.112.156
-      type: ss
+    - name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-jp-006.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-jp-006.fastervpn.world
+      tfo: false
+      type: hysteria2
+    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-024.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-024.fastervpn.world
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|797KB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-011.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-011.fastervpn.world
+      type: hysteria2
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: "\U0001F1EE\U0001F1F9IT_1|930KB/s"
+      password: strong-secret-pass-777
+      port: 50043
+      server: 82.118.16.61
+      skip-cert-verify: true
+      type: tuic
+      udp-relay-mode: native
+      uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+      version: "5"
+    - name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-006.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-006.fastervpn.world
+      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s"
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E6\U0001F1F9AT_1|574KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
+        short-id: e3ec60fe5f53a97c
+      server: austria.coverprotect.info
+      servername: austria.coverprotect.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 304098c0-8e7f-41fd-8df8-487504e9e55c
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E6\U0001F1F9AT_2|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: niiQUWkfq_H7K9kDI7rZVMId2WvlmafWLWknL1Cu2QA
+        short-id: e3ec60fe5f53a97c
+      server: austria.coverprotect.info
+      servername: austria.coverprotect.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4ce98305-2c38-4e1f-aa7b-ef6f77bbfc7c
+      xudp: true
+    - cipher: none
+      name: "\U0001F1ED\U0001F1F0HK_2|737KB/s"
+      password: 79960b0b-7d31-4263-8915-6511b0e137a8
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: woshinidie-et3.pages.dev
+        mode: websocket
+        mux: false
+        path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+        skip-cert-verify: false
+        tls: true
+      port: 443
+      server: cf.130519.xyz
+      skip-cert-verify: false
+      type: ss
+      udp: false
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s"
+      password: strong-secret-pass-777
+      port: 50043
+      server: 82.117.255.37
+      skip-cert-verify: true
+      type: tuic
+      udp-relay-mode: native
+      uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+      version: "5"
+    - name: "\U0001F1FA\U0001F1F8US_4|1.8MB/s"
+      obfs: salamander
+      obfs-password: OrT7yQQIMqcvKdet
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 443
+      server: usa-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-usa.onetaplink.app
+      tfo: false
+      type: hysteria2
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_2|4.4MB/s"
+      network: ws
+      port: "16616"
+      server: m.cnmjin.net
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+      ws-opts:
+        headers:
+            Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - name: "\U0001F1F9\U0001F1FCTW_3|562KB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      udp: true
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1F0\U0001F1F7KR_2|1.6MB/s"
+      password: ""
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_3|1.7MB/s"
       port: 19001
       reality-opts:
         public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
@@ -225,4 +235,335 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+      uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
+    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-023.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-023.fastervpn.world
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-018.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-018.fastervpn.world
+      type: hysteria2
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
+      network: tcp
+      port: "180"
+      server: 82.198.246.250
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_1|1004KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.216
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_2|628KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.136
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_3|900KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.206
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_4|816KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.156
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_5|549KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.198
+      type: ss
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EF\U0001F1F5JP_4|1.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
+      port: 55000
+      server: 151.241.130.90
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_6|1.9MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.118
+      type: ss
+    - auth: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      down: 300
+      name: "\U0001F1F8\U0001F1ECSG_2|5.4MB/s"
+      password: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      port: 22005
+      server: xjp1.casvre.top
+      skip-cert-verify: true
+      sni: https://xjp1.casvre.top/
+      type: hysteria2
+      udp: true
+      up: 300
+    - auth: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      down: 300
+      name: "\U0001F1ED\U0001F1F0HK_3|5.3MB/s"
+      password: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      port: 22005
+      server: xgxg2.casvre.top
+      skip-cert-verify: true
+      sni: https://xgxg2.casvre.top/
+      type: hysteria2
+      udp: true
+      up: 300
+    - auth: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      down: 300
+      name: "\U0001F1ED\U0001F1F0HK_4|4.5MB/s"
+      password: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      port: 22005
+      server: xgxg1.casvre.top
+      skip-cert-verify: true
+      sni: https://xgxg1.casvre.top/
+      type: hysteria2
+      udp: true
+      up: 300
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_7|995KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.220
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_8|889KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.16
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_9|1.6MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.218
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_10|536KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.112
+      type: ss
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: UpdateService
+      name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
+      network: grpc
+      port: "2083"
+      reality-opts:
+        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+        short-id: 6da16b1335651b38
+      server: nl.appav.online
+      servername: apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3de26259-e6b4-4b22-af75-2f473d548e94
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s"
+      password: somebody
+      plugin: obfs
+      plugin-opts:
+        host: 20xteamxa9-usa5-a7xr.update.microsoft.com
+        mode: http
+      port: 30011
+      server: 45.8.112.156
+      type: ss
+    - auth: 77494dac-8174-45d4-8036-9ebab26de4d7
+      name: "\U0001F1F8\U0001F1ECSG_3|3.6MB/s"
+      password: 77494dac-8174-45d4-8036-9ebab26de4d7
+      port: 22005
+      server: xjp1.casvre.top
+      skip-cert-verify: true
+      sni: https%3A%2F%2Fxjp1.casvre.top%2F
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB_2|2.7MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+      server: 178.159.10.78
+      servername: www.vodafone.co.uk
+      tls: true
+      type: vless
+      udp: true
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: ZpkoOvcRglQoTWJ3B7hiJlmMYTtIu41hJ51FMMdSTDE
+        short-id: 98c3d62ba1c26863
+      server: 95.179.236.230
+      servername: www.argos.co.uk
+      tls: true
+      type: vless
+      udp: true
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_11|897KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.213
+      type: ss
+      udp: true
+    - auth: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      down: 300
+      name: "\U0001F1EF\U0001F1F5JP_5|1.1MB/s"
+      password: 15ae53c6-8538-434d-a08c-3a5a6d5bd524
+      port: 22005
+      server: rbrb1.casvre.top
+      skip-cert-verify: true
+      sni: https://rbrb1.casvre.top/
+      type: hysteria2
+      udp: true
+      up: 300
+    - auth: 77494dac-8174-45d4-8036-9ebab26de4d7
+      name: "\U0001F1ED\U0001F1F0HK_5|3.4MB/s"
+      password: 77494dac-8174-45d4-8036-9ebab26de4d7
+      port: 22005
+      server: xgxg2.casvre.top
+      skip-cert-verify: true
+      sni: https%3A%2F%2Fxgxg2.casvre.top%2F
+      type: hysteria2
+      udp: true
+    - client-fingerprint: random
+      encryption: none
+      name: "\U0001F1F9\U0001F1EDTH_1|972KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+        short-id: ""
+      server: 47.87.65.216
+      servername: api.digital-help-prd.autodesk.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+      xudp: true
+    - auth: 77494dac-8174-45d4-8036-9ebab26de4d7
+      name: "\U0001F1ED\U0001F1F0HK_6|3.5MB/s"
+      password: 77494dac-8174-45d4-8036-9ebab26de4d7
+      port: 22005
+      server: xgxg1.casvre.top
+      skip-cert-verify: true
+      sni: https%3A%2F%2Fxgxg1.casvre.top%2F
+      type: hysteria2
+      udp: true
+    - alterId: "2"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_7|687KB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+      ws-opts:
+        headers:
+            Host: hkt.gotochinatown.net
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: nUl4-UbSlrf8sCY4QNCKF3dMmgWLWJbgeziVqwfklhU
+        short-id: ad3c6641d540b4e1
+      server: 51.158.62.94
+      servername: www.laposte.fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_12|1.2MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.193
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_13|854KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.146
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_14|1.1MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.132
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F3IN_1|3.1MB/s"
+      network: ws
+      port: "46000"
+      server: 152.70.76.104
+      servername: sni.111000.v6.navy
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: sni.111000.v6.navy
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
