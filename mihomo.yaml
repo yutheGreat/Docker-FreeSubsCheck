@@ -1,26 +1,7 @@
 proxies:
-  - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-    name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
-    obfs: salamander
-    obfs-password: CF7WJGiw6r1c8imX
-    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-    port: 5443
-    server: jp-hy2.onetaplink.app
-    skip-cert-verify: false
-    sni: hy2-jp.onetaplink.app
-    type: hysteria2
-    udp: true
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EF\U0001F1F5JP_2|5.1MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-018.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-018.fastervpn.world
-    type: hysteria2
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|2.9MB/s"
     obfs: salamander
     obfs-password: OrT7yQQIMqcvKdet
     password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -30,21 +11,34 @@ proxies:
     sni: hy2-sg.onetaplink.app
     type: hysteria2
     up: ''
-  - name: "\U0001F1F8\U0001F1ECSG_2|7.3MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_2|2.8MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-sg-001.fastervpn.world
     skip-cert-verify: true
     sni: vpn-sg-001.fastervpn.world
     type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-us-018.fastervpn.world
+    server: vpn-jp-013.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-us-018.fastervpn.world
+    sni: vpn-jp-013.fastervpn.world
     type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
+    udp: true
+  - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    name: "\U0001F1EF\U0001F1F5JP_2|2.8MB/s"
+    obfs: salamander
+    obfs-password: CF7WJGiw6r1c8imX
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    port: 5443
+    server: jp-hy2.onetaplink.app
+    skip-cert-verify: false
+    sni: hy2-jp.onetaplink.app
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s"
     obfs: salamander
     obfs-password: OrT7yQQIMqcvKdet
     password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -55,39 +49,39 @@ proxies:
     tfo: false
     type: hysteria2
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1F8\U0001F1ECSG_3|5.3MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-sg-002.fastervpn.world
+    server: vpn-jp-018.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-sg-002.fastervpn.world
-    type: hysteria2
-  - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s"
-    password: dongtaiwang.com
-    port: 40022
-    ports: 41000-42000
-    server: 62.210.30.179
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-021.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-021.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-011.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-011.fastervpn.world
+    sni: vpn-jp-018.fastervpn.world
     type: hysteria2
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EF\U0001F1F5JP_3|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-024.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-024.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
+    network: ws
+    port: 2053
+    server: 185.243.112.61
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: sni.111000.v6.navy
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1EF\U0001F1F5JP_4|4.0MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-jp-016.fastervpn.world
@@ -96,7 +90,7 @@ proxies:
     type: hysteria2
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
     network: ws
     port: 443
     server: 209.102.207.120
@@ -113,17 +107,24 @@ proxies:
       path: /
     xudp: true
     servername: sni.111000.v6.navy
-  - name: "\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-us-022.fastervpn.world
+    server: vpn-us-011.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-us-022.fastervpn.world
+    sni: vpn-us-011.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-018.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-018.fastervpn.world
     type: hysteria2
   - alpn:
       - h3
     congestion-controller: bbr
-    name: "\U0001F1F7\U0001F1F4RO_1|2.6MB/s"
+    name: "\U0001F1F7\U0001F1F4RO_1|3.1MB/s"
     password: strong-secret-pass-777
     port: 50043
     server: 82.117.255.37
@@ -132,54 +133,150 @@ proxies:
     udp-relay-mode: native
     uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
     version: '5'
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_6|2.9MB/s"
-    password: somebody
-    plugin: obfs
-    plugin-opts:
-      host: 20xteamxa9-usb2-a7xr.update.microsoft.com
-      mode: http
-    port: 30011
-    server: 38.244.42.24
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|690KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.213
     type: ss
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_5|3.4MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-us-024.fastervpn.world
+    server: vpn-jp-001.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-us-024.fastervpn.world
+    sni: vpn-jp-001.fastervpn.world
     type: hysteria2
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_8|3.1MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-019.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-019.fastervpn.world
-    type: hysteria2
-    udp: true
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_9|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-us-023.fastervpn.world
     skip-cert-verify: true
     sni: vpn-us-023.fastervpn.world
     type: hysteria2
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_2|1.8MB/s"
-    network: ws
+  - name: "\U0001F1FA\U0001F1F8US_6|1.4MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: 135.84.74.155
+    server: vpn-us-021.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-021.fastervpn.world
+    type: hysteria2
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|534KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.54
+    type: ss
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1E9ID_1|1.7MB/s"
+    port: 8443
+    reality-opts:
+      public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
+      short-id: "a1b2c3d4e5f6"
+    server: 202.155.11.137
+    skip-cert-verify: false
     tls: true
     type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
+    network: tcp
+    servername: www.apple.com
+  - auth: dongtaiwang.com
+    name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s"
+    password: dongtaiwang.com
+    port: 40022
+    ports: 41000-42000
+    server: 62.210.30.179
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1F8\U0001F1ECSG_3|8.0MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 22045
+    server: 54.46.47.243
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+  - name: "\U0001F1EF\U0001F1F5JP_6|3.3MB/s"
+    network: tcp
+    password: 187dda4498be9ac4f28db939d5940185
+    port: 2001
+    server: 57.180.66.105
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg00129437x.cybervena.com
+    type: ss
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_7|3.3MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 3122
+    server: 176.34.1.172
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+  - name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 9211
+    server: 57.180.66.105
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1EF\U0001F1F5JP_8|922KB/s"
+    network: tcp
+    password: 187dda4498be9ac4f28db939d5940185
+    port: 4380
+    server: 160.16.124.17
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - name: "\U0001F1FA\U0001F1F8US_7|2.9MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 23255
+    server: 95.40.120.247
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1F8\U0001F1ECSG_4|596KB/s"
+    network: tcp
+    password: 187dda4498be9ac4f28db939d5940185
+    port: 4674
+    server: 160.16.124.17
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_8|605KB/s"
+    network: ws
+    port: 2053
+    server: 162.159.45.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
     ws-opts:
       headers:
-        Host: sni.111000.v6.navy
-      path: "/?Telegram\U0001F1E8\U0001F1F3 @WangCai2="
-    servername: sni.111000.v6.navy
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fu.baiproxy.us.ci
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -187,46 +284,396 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+    name: "\U0001F1E6\U0001F1F9AT_1|1.9MB/s"
     network: tcp
-    port: 8443
+    port: 7443
     reality-opts:
-      public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-      short-id: "a1b2c3d4e5f6"
-    server: 81.19.141.91
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 152.53.1.32
     tls: true
     type: vless
     udp: true
-    uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
+    uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
     xudp: true
-    servername: www.apple.com
+    servername: chat.deepseek.com
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_2|684KB/s"
-    port: 8443
+    name: "\U0001F1E6\U0001F1F9AT_2|1.7MB/s"
+    port: 7443
     reality-opts:
-      public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-      short-id: "cafe01234567"
-    server: 81.19.141.91
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: "d82fb387"
+    server: 152.53.1.32
+    skip-cert-verify: false
     tls: true
     type: vless
-    uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
+    udp: true
+    uuid: 8f8380ae-9f5d-4cb5-8f5f-0f70fbe054a9
     network: tcp
-    servername: www.apple.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_4|1.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
-    port: 55000
-    server: 151.241.130.90
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
+    servername: chat.deepseek.com
+  - name: "\U0001F1F8\U0001F1ECSG_5|2.6MB/s"
+    network: tcp
+    password: 187dda4498be9ac4f28db939d5940185
+    port: 4674
+    server: 57.180.66.105
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
   - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F3IN_1|1.1MB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1FFCZ_1|1.5MB/s"
+    port: 443
+    reality-opts:
+      public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+      short-id: "41427aa565e28984"
+    server: 86.54.82.239
+    tls: true
+    type: vless
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    network: tcp
+    servername: store.steampowered.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_3|1.0MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.115
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s"
+    network: ws
+    port: 8443
+    server: 91.84.101.164
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
+    xudp: true
+    servername: sni.111000.v6.navy
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|1.8MB/s"
+    port: 4424
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 194.26.229.124
+    tls: true
+    type: vless
+    uuid: e559b201-72bb-4eb4-9d0e-7e2b029dfe63
+    network: tcp
+    servername: files.moscownews24.ru
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s"
+    network: ws
+    port: 443
+    server: 135.84.74.155
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: "/?Telegram\U0001F1E8\U0001F1F3 @WangCai2="
+    xudp: true
+    servername: sni.111000.v6.navy
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_9|1.6MB/s"
+    network: ws
+    port: 8443
+    server: 74.48.141.167
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: sni.111000.v6.navy
+  - name: "\U0001F1F8\U0001F1ECSG_6|8.9MB/s"
+    password: BxceQaOe
+    port: 22045
+    server: 54.46.47.243
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+    network: tcp
+  - name: "\U0001F1EF\U0001F1F5JP_9|5.4MB/s"
+    password: BxceQaOe
+    port: 3122
+    server: 176.34.1.172
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8US_10|2.0MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-022.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-022.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_11|658KB/s"
+    password: 187dda4498be9ac4f28db939d5940185
+    port: 4019
+    server: 160.16.124.17
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+    network: tcp
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|564KB/s"
+    network: ws
+    port: 443
+    server: 139.144.181.54
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8US_12|3.1MB/s"
+    password: BxceQaOe
+    port: 23255
+    server: 95.40.120.247
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+    network: tcp
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_1|1.8MB/s"
+    network: ws
+    port: 443
+    server: 37.233.83.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_4|1.2MB/s"
+    network: ws
+    port: 443
+    server: 139.144.181.54
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_5|727KB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_2|542KB/s"
+    network: ws
+    port: 443
+    server: 37.233.83.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|631KB/s"
+    network: ws
+    port: 443
+    server: 88.198.82.150
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_3|660KB/s"
+    network: ws
+    port: 443
+    server: 37.233.83.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_4|630KB/s"
+    network: ws
+    port: 443
+    server: 37.233.83.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_7|639KB/s"
+    network: ws
+    port: 443
+    server: 88.198.82.150
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE_5|2.0MB/s"
+    network: ws
+    port: 443
+    server: 37.233.83.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3IN_1|4.1MB/s"
     network: ws
     port: 46000
     server: 152.70.76.104
@@ -238,20 +685,498 @@ proxies:
       headers:
         Host: sni.111000.v6.navy
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
     servername: sni.111000.v6.navy
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_4|681KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.60
+    type: ss
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EADE_3|725KB/s"
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
+      short-id: "a1b2c3d4e5f6"
+    server: 45.143.167.170
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
+    xudp: true
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_3|2.1MB/s"
+    port: 8443
+    reality-opts:
+      public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
+      short-id: "a1b2c3d4e5f6"
+    server: 45.143.167.170
+    tls: true
+    type: vless
+    uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
+    network: tcp
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_1|1.7MB/s"
     network: ws
-    port: 12001
-    server: 89.58.32.115
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_2|1.3MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_3|1.3MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_4|1.5MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.115 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_5|715KB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_6|1.9MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_7|775KB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_8|1.1MB/s"
+    network: ws
+    port: 443
+    server: 5.34.212.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/37.0.2062.120 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_9|1.1MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_10|629KB/s"
+    network: ws
+    port: 443
+    server: 5.34.212.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_11|937KB/s"
+    network: ws
+    port: 443
+    server: 5.34.212.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_12|1.5MB/s"
+    network: ws
+    port: 443
+    server: 5.34.212.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_13|2.1MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_14|1.3MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_15|2.0MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_16|865KB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_17|1.6MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_5|939KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.118
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_18|1.8MB/s"
+    network: ws
+    port: 443
+    server: 5.34.212.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1ED\U0001F1F0HK_2|612KB/s"
+    password: somebody
+    plugin: obfs
+    plugin-opts:
+      host: 20xteamxa9-hka3-a7xr.update.microsoft.com
+      mode: http
+    port: 60111
+    server: 110.42.98.230
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_8|857KB/s"
+    network: ws
+    port: 443
+    server: 43.165.3.87
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+    ws-opts:
+      headers:
+        Host: falankefu1.zqjsqapi.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
+      path: /proxy
+    xudp: true
+    servername: falankefu1.zqjsqapi.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_3|2.0MB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_13|564KB/s"
+    network: ws
+    port: 443
+    server: 167.99.49.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_4|2.3MB/s"
+    network: ws
+    port: 443
+    server: 217.163.76.254
     tls: true
     type: vless
     udp: true
@@ -260,19 +1185,215 @@ proxies:
       headers:
         Host: sni.111000.v6.navy
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: "/?ed=2560&telegram\U0001F1E8\U0001F1F3+@wangcai2"
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
     servername: sni.111000.v6.navy
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: ❓Other_1|5.4MB/s
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_14|1.1MB/s"
+    network: tcp
+    port: 42428
+    reality-opts:
+      public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
+      short-id: "24adcebe"
+    server: 144.31.94.4
+    tls: true
+    type: vless
+    udp: true
+    uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
+    xudp: true
+    servername: eh.vk.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_15|867KB/s"
+    network: ws
     port: 443
-    server: vpn-jp-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-001.fastervpn.world
-    type: hysteria2
+    server: 167.99.49.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_9|664KB/s"
+    network: ws
+    port: 443
+    server: 185.36.143.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1FBLV_19|1.8MB/s"
+    network: ws
+    port: 443
+    server: 46.32.184.64
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_10|1.1MB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_16|541KB/s"
+    network: ws
+    port: 443
+    server: 167.99.49.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_11|2.3MB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.115 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_12|1.9MB/s"
+    network: ws
+    port: 443
+    server: 217.144.102.52
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_13|825KB/s"
+    network: ws
+    port: 443
+    server: 217.144.102.52
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_17|1.3MB/s"
+    network: ws
+    port: 443
+    server: 209.135.171.209
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
