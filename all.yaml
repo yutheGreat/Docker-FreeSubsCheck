@@ -1,53 +1,21 @@
 proxies:
-    - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-      name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
-      obfs: salamander
-      obfs-password: CF7WJGiw6r1c8imX
-      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-      port: 5443
-      server: jp-hy2.onetaplink.app
-      skip-cert-verify: false
-      sni: hy2-jp.onetaplink.app
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|788KB/s"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      skip-cert-verify: false
-      tls: false
-      type: http
-      username: fQ67Dpe5dU
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: ZpkoOvcRglQoTWJ3B7hiJlmMYTtIu41hJ51FMMdSTDE
-        short-id: 98c3d62ba1c26863
-      server: 95.179.236.230
-      servername: www.argos.co.uk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-      xudp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
-      network: tcp
-      password: M08tvzYWtUEJNtbpHp
+    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
-      server: 194.124.216.192
+      server: vpn-jp-016.fastervpn.world
       skip-cert-verify: true
-      type: trojan
+      sni: vpn-jp-016.fastervpn.world
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_1|636KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.205
+      type: ss
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_1|4.9MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|5.9MB/s"
       obfs: salamander
       obfs-password: OrT7yQQIMqcvKdet
       password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
@@ -57,28 +25,143 @@ proxies:
       sni: hy2-sg.onetaplink.app
       type: hysteria2
       up: ""
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-      password: somebody
-      plugin: obfs
-      plugin-opts:
-        host: 20xteamxa9-usa2-a7xr.update.microsoft.com
-        mode: http
-      port: 30011
-      server: 38.105.28.221
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_2|578KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.237
       type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_3|629KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.230
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1NL_1|526KB/s"
+      network: tcp
+      password: M08tvzYWtUEJNtbpHp
+      port: 443
+      server: 194.124.216.192
+      skip-cert-verify: true
+      type: trojan
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_4|519KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.188
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+      obfs: salamander
+      obfs-password: OrT7yQQIMqcvKdet
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 443
+      server: usa-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-usa.onetaplink.app
+      tfo: false
+      type: hysteria2
+    - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      name: "\U0001F1EF\U0001F1F5JP_2|4.4MB/s"
+      obfs: salamander
+      obfs-password: CF7WJGiw6r1c8imX
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 5443
+      server: jp-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-jp.onetaplink.app
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: ZnlCl_Jc2dV5-KK_ymmMcEDoe5lPyZ-5z_LGMRoiNTU
+        short-id: b87063a35aaa942e
+      server: 51.255.71.16
+      servername: www.booking.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      xudp: true
     - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1EF\U0001F1F5JP_2|4.9MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
-      server: vpn-jp-016.fastervpn.world
+      server: vpn-us-024.fastervpn.world
       skip-cert-verify: true
-      sni: vpn-jp-016.fastervpn.world
+      sni: vpn-us-024.fastervpn.world
+      type: hysteria2
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: yandex.ru
+      name: "\U0001F1E6\U0001F1F9AT_1|1.5MB/s"
+      network: grpc
+      port: "1443"
+      reality-opts:
+        public-key: asw-c8jLA8GT6tydb7teY46doPq-silOzQUFUkERxh0
+        short-id: "80e0"
+      server: at.pfvpn.cfd
+      servername: yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0642ee71-53ad-403b-a210-97782ed3d94c
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_3|1.0MB/s"
+      password: e777513e-9df5-4dc3-bc84-74e564345a81
+      port: "13012"
+      server: usgpt.slianrk.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      http-opts:
+        path:
+            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+      name: "\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
+      network: http
+      port: 22
+      server: 172.65.111.43
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: monacoVPN
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /ABCDE
+      name: "\U0001F1F8\U0001F1ECSG_2|538KB/s"
+      network: http
+      port: 52323
+      server: 34.143.213.97
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
+    - name: "\U0001F1FA\U0001F1F8US_4|1.8MB/s"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-us-011.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-011.fastervpn.world
       type: hysteria2
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1F7\U0001F1F4RO_1|3.4MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_1|3.0MB/s"
       password: strong-secret-pass-777
       port: 50043
       server: 82.117.255.37
@@ -87,62 +170,34 @@ proxies:
       udp-relay-mode: native
       uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
       version: "5"
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_2|3.5MB/s"
-      network: ws
-      port: 443
-      server: 129.150.48.17
-      servername: 1-jk1.pages.dev
+    - name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s"
+      password: 187dda4498be9ac4f28db939d5940185
+      port: 52687
+      server: 95.40.33.204
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_1|4.1MB/s"
+      port: 19001
+      reality-opts:
+        public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+      server: krp01.jumperservice.com
+      servername: addons.mozilla.org
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 1-jk1.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1|664KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.146
-      type: ss
+      uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
     - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3|8.5MB/s"
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
-      server: vpn-us-024.fastervpn.world
+      server: vpn-sg-002.fastervpn.world
       skip-cert-verify: true
-      sni: vpn-us-024.fastervpn.world
+      sni: vpn-sg-002.fastervpn.world
       type: hysteria2
-    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-us-023.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-023.fastervpn.world
-      type: hysteria2
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_3|2.7MB/s"
-      network: ws
-      port: 443
-      server: 160.191.40.194
-      servername: 3-93f.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 3-93f.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -150,7 +205,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E7\U0001F1ECBG_1|1.6MB/s"
+      name: "\U0001F1E7\U0001F1ECBG_1|1.5MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -165,1540 +220,12 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_3|3.8MB/s"
-      network: ws
-      port: 443
-      server: 129.150.46.113
-      servername: 3-deu.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 3-deu.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_2|823KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.156
-      type: ss
-    - cipher: none
-      name: "\U0001F1ED\U0001F1F0HK_1|5.8MB/s"
-      password: 79960b0b-7d31-4263-8915-6511b0e137a8
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: woshinidie-et3.pages.dev
-        mode: websocket
-        mux: false
-        path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-        skip-cert-verify: false
-        tls: true
-      port: 443
-      server: cf.130519.xyz
-      skip-cert-verify: false
-      type: ss
-      udp: false
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F9\U0001F1FCTW_1|2.7MB/s"
-      network: ws
-      port: 8443
-      server: 1.168.191.235
-      servername: 3-vud.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 3-vud.pages.dev
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_4|520KB/s"
-      network: ws
-      port: "443"
-      server: dongjing1.zqjsqapi.com
-      servername: dongjing1.zqjsqapi.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-      ws-opts:
-        headers:
-            Host: dongjing1.zqjsqapi.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /proxy
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /ABCDE
-      name: "\U0001F1F8\U0001F1ECSG_4|2.6MB/s"
-      network: http
-      port: 52323
-      server: 34.143.213.97
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_3|723KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.53
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_4|1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.154
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1052
-      name: "\U0001F1FA\U0001F1F8US_5|2.2MB/s"
-      port: 180
-      server: 82.198.246.250
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3VN_5|629KB/s"
-      network: ws
-      port: 12891
-      server: gtm1.ktmwan.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_1|844KB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.4
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
-        path: /222.167.202.4:7443
-      xudp: true
-    - name: "\U0001F1EE\U0001F1F9IT_2|2.1MB/s"
-      network: ws
-      port: 7443
-      server: 222.167.202.14
-      servername: 2026.hhhhh.eu.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-        path: /222.167.202.14:7443
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_3|1.5MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.23
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
-        path: /222.167.202.23:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_4|1.6MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.33
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /222.167.202.33:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_5|1.0MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.3
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /222.167.202.3:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_6|1.2MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.47
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /222.167.202.47:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      http-opts:
-        path:
-            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-      name: "\U0001F1E8\U0001F1EDCH_1|774KB/s"
-      network: http
-      port: 22
-      server: 172.65.111.43
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: monacoVPN
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_7|1.4MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.70
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /222.167.202.70:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_8|838KB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.6
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /222.167.202.6:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_9|993KB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.22
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /222.167.202.22:7443
-      xudp: true
-    - cipher: chacha20-ietf
-      name: ❓Other_1|916KB/s
-      password: asd123456
-      port: 8388
-      server: 103.149.183.12
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_10|928KB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.50
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /222.167.202.50:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_11|2.0MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.32
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /222.167.202.32:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_12|1.1MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.15
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /222.167.202.15:7443
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9AT_1|562KB/s"
-      network: ws
-      password: trojan
-      port: "8888"
-      server: 152.53.45.251
-      skip-cert-verify: false
-      sni: jflsjlaf.pages.dev
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: //
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_13|553KB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.21
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /222.167.202.21:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_14|1.2MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.45
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /222.167.202.45:7443
-      xudp: true
-    - client-fingerprint: random
-      name: "\U0001F1F2\U0001F1FEMY_1|636KB/s"
-      network: ws
-      port: 443
-      server: 96.126.190.196
-      servername: fm3.pages.dev
-      tls: true
-      type: vless
-      uuid: 47841e5f-46cf-4ca9-ac99-31a5400020b6
-      ws-opts:
-        headers:
-            Host: fm3.pages.dev
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1F9\U0001F1FCTW_2|2.6MB/s"
-      password: qwerREWQ@@
-      port: 41632
-      server: 185.189.160.105
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_2|6.1MB/s"
-      network: ws
-      port: 443
-      server: dnew.cc
-      servername: 1-7gs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: 1-7gs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
-        path: /proxyip=ProxyIP.DE.owg.dpdns.org
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_15|1.7MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.10
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-        path: /222.167.202.10:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1E8\U0001F1EDCH_2|1.8MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ
-        short-id: f04729f65b9ea261
-      server: se1.samovargate.com
-      servername: www.microsoft.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 82b5b465-3307-4a25-acef-abd1649bbedf
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_5|736KB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
-      tls: true
-      type: vless
-      uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|703KB/s"
-      network: ws
-      port: "443"
-      server: 209.102.207.120
-      servername: sni.111000.v6.navy
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.111000.v6.navy
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_6|545KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.144
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_7|1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.150
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_8|1.4MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.203
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E7\U0001F1ECBG_2|839KB/s"
-      password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-      port: "31348"
-      server: 89.44.197.181
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F9IT_16|2.0MB/s"
-      network: ws
-      port: "7443"
-      server: 222.167.202.26
-      servername: 2026.hhhhh.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-      ws-opts:
-        headers:
-            Host: 2026.hhhhh.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /222.167.202.26:7443
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: yandex.ru
-      name: "\U0001F1E6\U0001F1F9AT_2|2.1MB/s"
-      network: grpc
-      port: "1443"
-      reality-opts:
-        public-key: asw-c8jLA8GT6tydb7teY46doPq-silOzQUFUkERxh0
-        short-id: "80e0"
-      server: at.pfvpn.cfd
-      servername: yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0642ee71-53ad-403b-a210-97782ed3d94c
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_6|1.1MB/s"
-      network: ws
-      port: 12883
-      server: gtm1.ktmwan.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_9|1.5MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.211
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s"
-      network: ws
-      password: 823cbccd-3a71-4248-ac3c-3c460de1552d
-      port: 443
-      server: 172.64.52.251
-      skip-cert-verify: false
-      sni: sg680.pages.dev
-      type: trojan
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_10|1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.45
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_11|1.7MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.205
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_12|1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.180
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bdc84a47-202f-4d5f-b6cb-cb4f575b277b
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2ba7955d-50ae-46a2-bd27-96c170579749
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ba7ae0a2-0114-4147-a497-c274313b0938
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 42b9d304-5d9c-4e31-90fe-a56e6bc32ebf
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: b34477a1-9883-41c0-b002-a243a9a90935
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_12|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cdd57b3e-0127-49cf-a8ab-37bd04cfeead
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13|1.0MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1807afec-fbc7-4ec5-b1f5-0504f65a2ee5
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_13|638KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.151
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_14|1.0MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.220
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ee538a0f-fc21-43a6-9bd1-a120e7d5fc4e
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_15|1.8MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.183
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15|648KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 164f52fd-7a43-4aef-96d1-81141bd30620
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16|1.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a1c6e31b-20be-4ca9-9aad-e9765fa0a4cb
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 73013c12-2c32-4c47-af83-c7a17218b0bc
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_18|2.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7c20ad4b-532d-461f-a061-c0c8f1a16f70
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_19|1.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: da3bd9cc-f9e7-4db2-a009-fbe9d7958682
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_16|1.6MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.21
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_20|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bad47e39-2be8-4b4d-b573-b87b79e16b56
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_21|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 10fddb9a-1296-4563-95ce-2f7f73b18874
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_22|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: b8c34573-51fd-4a5c-a82e-aa037e0c42a5
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_23|912KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c97dec48-aa2e-45b0-8f11-962c06b9b97c
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_24|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3a6ed74f-b874-4e41-ae68-e3f21668b788
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_25|1.4MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4bd11863-6ffe-4837-9c81-b14cb49b1519
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_26|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4b440acd-8683-4ca5-9db9-8b6becd3ef84
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_27|1022KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0439e868-f537-423c-afa3-6ee129c3ee04
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_28|800KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e9eb25b3-3a82-47b4-bd18-3e54518b7a73
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_17|1.1MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.45
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_18|773KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.250
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_19|933KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.230
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_20|690KB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.209
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_21|1.3MB/s"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.237
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_29|520KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: abf4f8d3-1720-4d91-afbf-6a6875a38040
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_31|989KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9b445c30-17d1-4735-8c75-699c16936447
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_30|956KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cd0d07b9-c269-4ba9-ad3e-200c7ada8fbb
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_32|934KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4dd75856-eaca-467a-84da-756c6e937533
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_33|763KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d132cd8d-d5f6-40e4-8f67-eae82a053db5
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_34|951KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0cd73cd0-ab84-436c-9dc3-ea78f8551269
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_35|775KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d11f34b8-849c-4453-bfce-6b29640fdeb2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_36|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: dbb7f9b6-69f0-41ca-9b9d-2011bdaed74d
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_37|889KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ba6e67-86be-4517-9d96-872004bb1894
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_38|850KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7ae56d6f-3867-499b-ab68-3d4ad8b0ec9e
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_39|943KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4ad50799-d9ab-4645-8043-2dfd6b89e87b
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_40|760KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ac1a4a71-6f6f-45b5-a4f6-42211bc3e503
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_41|561KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a29e5432-edda-4bbc-8161-ab629fef82b4
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_42|952KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 87cf8dc0-3e32-422e-a725-598f26be4660
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_43|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7f3e0dff-1b46-4ac4-97de-13dd8eec316b
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_44|593KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2ceafff9-c48e-410f-8bce-ec53593c5b27
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_45|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d07ce687-d329-4965-a7ea-ea6e20efd631
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_46|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 33777f04-3305-400f-b01d-7b55c3363f46
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_47|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9fa42bde-ef0e-4277-9651-4db76f4fca14
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_48|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 93975858-1251-439a-9113-10326f4355ad
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_50|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 161d2296-aaf7-4ff6-a179-6d0851551cfc
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_49|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 76643e09-7016-4602-bd62-17976ce810b8
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_51|998KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 90224402-6135-45a0-8cf1-536e6ae80a38
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_52|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9bfd06c7-58da-40a7-9969-edf8ba29a085
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_53|720KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f52bde39-5ff4-490a-8c15-504ab3f6fde1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_54|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e6644e87-5fb7-494d-8a5e-4722c9e11a20
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_55|922KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9cb00b31-213d-42fe-b33b-f0eb0605fd10
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_56|611KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c2fefe69-1981-4ba4-9444-f2e6e702811d
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_57|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f81c01c6-6791-4470-bfe4-e73350605e62
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_58|614KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 163fef9a-24a5-4a17-80b3-5b050962f95c
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_59|948KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c6197c35-d7cf-4448-92f8-42d0337773f8
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_60|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2d7949c7-1d26-4000-bdce-df67f804991b
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_61|1.4MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fe9e6fed-18c2-414a-826d-8c93c76f26a9
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_62|1.1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7e681d5a-c145-48d0-a208-1a4410ed35ea
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_64|851KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4364c922-c646-4f88-b95e-d1758cc3440c
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_63|640KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1721a58c-23c8-41aa-a0d1-6d51c9721c68
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_65|1.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3bb8ca0d-54bf-49f7-919f-b41ee0c62d4d
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_66|861KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 823d722a-13c9-4162-ae1a-4bff9d5bcb2b
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_67|1.4MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bef09ef8-e1b8-4155-a31f-0bc5f3068dc1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_68|717KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-        short-id: 2da72ce6
-      server: 174.136.205.68
-      servername: navi.bankrate.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 622b15c5-96e7-4d76-a038-ac0b083c696c
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_2|2.0MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: K1p8iHF_pzt-Y07A-xqyEMvgFPdhWgJ0k6mLmRv42yg
-        short-id: 9876543210abcdef
-      server: 165.232.86.81
-      servername: www.aliexpress.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E8\U0001F1FFCZ_1|2.0MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
-        short-id: 41427aa565e28984
-      server: 86.54.82.239
-      servername: store.steampowered.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: gch4w4OXSvfllKqDfUuk4S-waCqmPfKvLaqnu0qKkiI
-        short-id: 5eb59ee7bbb4b114
-      server: 213.202.223.72
-      servername: www.booking.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_69|2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s"
       network: tcp
       port: "42428"
       reality-opts:
@@ -1711,6 +238,45 @@ proxies:
       udp: true
       uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
       xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|2.1MB/s"
+      password: BxceQaOe
+      port: 4746
+      server: 18.177.145.165
+      skip-cert-verify: true
+      sni: t.me%252Fripaojiedian
+      type: trojan
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_5|522KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.233
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_6|952KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.14
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_7|793KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.8
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0HK_2|2.0MB/s"
+      password: BxceQaOe
+      port: 9211
+      server: 13.193.220.142
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_4|4.6MB/s"
+      password: 187dda4498be9ac4f28db939d5940185
+      port: 2001
+      server: 18.177.145.165
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -1718,49 +284,483 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s"
+      name: "\U0001F1E8\U0001F1EDCH_2|1.4MB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
-        short-id: 0c1553316a645758
-      server: 45.77.66.142
-      servername: www.zalando.de
+        public-key: gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ
+        short-id: f04729f65b9ea261
+      server: se1.samovargate.com
+      servername: www.microsoft.com
       tls: true
       type: vless
       udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      uuid: 82b5b465-3307-4a25-acef-abd1649bbedf
       xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_6|2.2MB/s"
+      password: 187dda4498be9ac4f28db939d5940185
+      port: 3057
+      server: 18.177.145.165
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_4|3.1MB/s"
+      password: 187dda4498be9ac4f28db939d5940185
+      port: 4674
+      server: 18.177.145.165
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s"
+      password: BxceQaOe
+      port: 44386
+      server: 54.46.53.176
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
     - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E8\U0001F1FECY_1|1.4MB/s"
-      network: tcp
-      port: "443"
+      name: "\U0001F1F0\U0001F1F7KR_2|3.4MB/s"
+      port: 19001
       reality-opts:
-        public-key: pBuXpWQ1Owy-fOEJZPUzYd-8xBsJB_1S05sLp_YMwzE
-        short-id: 4929ddcb86e785f7
-      server: 45.82.254.107
-      servername: www.booking.com
+        public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+      server: krp01.jumperservice.com
+      servername: addons.mozilla.org
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-      xudp: true
-    - name: "\U0001F1F7\U0001F1FARU_1|1.6MB/s"
+      uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_8|589KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.38
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_9|566KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.75
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7KR_3|547KB/s"
+      password: ""
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1|558KB/s"
       network: ws
-      port: "443"
-      server: 94.242.51.174
-      type: vless
+      port: "12888"
+      server: gtm1.ktmwan.net
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-      uuid: 3ddce082-7e03-429c-8af8-9a873d23f0ba
+      uuid: 21324e77-b4d2-4fca-8884-5e8b75836d2a
       ws-opts:
         headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+            Host: baidu.com
         path: /
+      xudp: true
+    - cipher: none
+      name: "\U0001F1F0\U0001F1F7KR_4|1.3MB/s"
+      password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: ylnhh.us.ci
+        mode: websocket
+        mux: false
+        path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+        tls: true
+      port: 24095
+      server: 211.48.77.114
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_1|1.4MB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_10|618KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.13
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_8|1.0MB/s"
+      network: ws
+      password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+      port: 443
+      server: 172.64.52.251
+      skip-cert-verify: false
+      sni: sg680.pages.dev
+      type: trojan
+      ws-opts:
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_2|658KB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_3|551KB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_4|779KB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_11|597KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.251
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_5|1.9MB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
+      network: ws
+      port: "2053"
+      server: 188.241.241.3
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_2|773KB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_3|2.2MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_9|865KB/s"
+      network: ws
+      port: "443"
+      server: 209.135.171.209
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|693KB/s"
+      network: ws
+      port: "8443"
+      server: 54.36.98.4
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: sni.111000.v6.navy
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /%3Fed
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_6|1.5MB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|782KB/s"
+      network: ws
+      port: "2053"
+      server: 188.241.241.3
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_5|1.6MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_7|1.1MB/s"
+      network: ws
+      port: "443"
+      server: 5.34.212.114
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_7|1.6MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_8|542KB/s"
+      network: ws
+      port: "443"
+      server: 188.253.24.71
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_9|1.2MB/s"
+      network: ws
+      port: "8443"
+      server: 89.110.112.154
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN_12|598KB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.53
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|1.5MB/s"
+      network: ws
+      port: "2053"
+      server: 188.241.241.3
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_4|710KB/s"
+      network: ws
+      port: "8443"
+      server: 213.176.64.23
+      servername: cf.afrcloudnet1.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+      ws-opts:
+        headers:
+            Host: cf.afrcloudnet1.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
       xudp: true
